@@ -1,0 +1,88 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+.thebody {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 0;
+
+  /* z-index: 1000; */
+}
+.sqidashboard {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(8, 13, 59);
+  width: 220px;
+  color: white;
+  height: 800px;
+  padding: 20px;
+  overflow: hidden;
+}
+.sqidashboard a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.sqidashboard .dashboard:hover {
+  border: 1px solid rgb(33, 38, 79);
+  background-color: rgb(33, 38, 79);
+  width: 170px;
+  height: 40px;
+}
+.scict {
+  font-size: 15px;
+}
+.studentportal {
+  margin: -10px 0px 0px 0px;
+  font-size: 13px;
+}
+.pdcdiv {
+  margin: 20px 0px 0px 0px;
+  border: 1px solid rgb(33, 38, 79);
+  background-color: rgb(33, 38, 79);
+  border-radius: 7px;
+  width: 160px;
+  height: 40px;
+}
+.pdc {
+  font-weight: 500;
+  margin: 7px 0px 0px 12px;
+}
+.general {
+  margin: 20px 0px 0px 0px;
+  opacity: 0.6;
+}
+.dashboard {
+  margin: 20px 0px 0px 0px;
+}
+nav {
+  width: 80%;
+  position: fixed;
+  height: 8px;
+  z-index: 3;
+  top: 0;
+  background-color: white;
+}
+.header {
+  border-bottom: 1px solid rgba(192, 191, 191, 0.726);
+  margin-left: 14rem;
+  width: 100%;
+}
+.leveldetails {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0px 0px 0px;
+  padding: 25px;
+  font-size: 15px;
+  justify-content: space-evenly;
+}
+.thedashboard {
+  margin: 8rem 0 0 15rem;
+}
+.detailsss {
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}

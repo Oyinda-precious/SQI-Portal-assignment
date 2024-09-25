@@ -1,38 +1,668 @@
-.App {
-  text-align: center;
+body {
+  width: 100%;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  width: 100%;
+  position: fixed;
+  height: 110px;
+  z-index: 3;
+  top: 0;
+  background-color: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  border-bottom: 1px solid rgba(192, 191, 191, 0.726);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainn {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.logodiv img {
+  height: 80px;
+  width: 100px;
+}
+.services {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0px 0px 0px;
+  padding: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.services a {
+  text-decoration: none;
+  color: rgb(65, 65, 168);
+}
+.sec1 {
+  background-color: whitesmoke;
+  padding: 7rem;
+}
+.sec1 h1 {
+  font-size: 65px;
+  font-weight: bold;
+  width: 400px;
+  color: rgb(4, 4, 83);
+}
+.studysec {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.firstimage img {
+  margin: -90px 0px 0px 0px;
+  width: 450px;
+}
+.skills {
+  width: 400px;
+  margin: -90px 0px 0px 0px;
+}
+.startnow {
+  margin: 30px 0px 0px 0px;
+}
+.startnow a {
+  text-decoration: none;
+  border: 1px solid darkblue;
+  border-radius: 5px;
+  padding: 15px 15px 15px 15px;
+  background-color: darkblue;
   color: white;
+  font-size: 18px;
+}
+.sec2 {
+  padding: 7rem;
+}
+.changeworld {
+  font-size: 50px;
+  color: rgb(4, 4, 83);
+  font-weight: bold;
+  padding: 20px;
+  margin: -50px 0px 0px 0px;
+}
+.Diplomadiv {
+  display: flex;
+  justify-content: space-around;
+}
+.Diplomadiv img {
+  width: 300px;
+  height: 350px;
+}
+.Diplomacontent {
+  display: flex;
+}
+.Dipprogram {
+  padding: 20px;
+}
+.Nid {
+  /* padding: 20px; */
+  color: rgb(4, 4, 83);
+  font-size: 22px;
+  font-weight: bold;
+  width: 300px;
+}
+.Nidcontent {
+  width: 300px;
+  margin: 20px 0px 0px 0px;
+  color: rgb(112, 111, 111);
+  font-weight: 500;
+}
+.learnmore {
+  margin: 30px 0px 0px 0px;
+}
+.learnmore a {
+  color: rgb(4, 4, 83);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+}
+.smalline {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 2px;
+  width: 89px;
+  height: 3px;
+  margin: 10px 0px 0px 0px;
+}
+.sec3 {
+  padding: 7rem;
+  margin-top: -8rem;
+}
+.seccontext {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nationcourse {
+  font-size: 20px;
+  color: rgb(4, 4, 83);
+  font-weight: bold;
+}
+.coursediv {
+  margin: 20px 0 0 0;
+  font-size: 17px;
+}
+.thehr {
+  width: 240px;
+  color: rgb(4, 4, 83);
+}
+.both {
+  width: 300px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.skillss {
+  width: 280px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.entryss {
+  width: 300px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.sec4 {
+  padding: 7rem;
+}
+.topdiv h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+.popular {
+  font-size: 18px;
+}
+.viewall a {
+  font-size: 14px;
+  color: darkblue;
+  font-weight: 500;
+}
+.topcoursess {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -5rem;
+}
+.boxborder {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  width: 430px;
+  height: 730px;
+  background-color: rgb(213, 234, 243);
+  margin: 50px 0px 0px 0px;
+  padding: 30px;
+}
+.softwaree {
+  margin: 20px 0px 0px 20px;
+}
+.softwaree img {
+  width: 330px;
+  height: 200px;
+  border-radius: 20px;
+}
+.softwarecontent {
+  margin: 40px 0px 0px 20px;
+}
+.boxborder2 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  width: 450px;
+  height: 730px;
+  background-color: rgb(238, 239, 189);
+  margin: -70px 0px 0px 0px;
+  padding: 30px;
+  border: 1px solid black;
+}
+.softwaree2 {
+  margin: 20px 0px 0px 20px;
+}
+.softwaree2 img {
+  width: 330px;
+  height: 200px;
+  border-radius: 20px;
+}
+.Datascience {
+  margin: 40px 0px 0px 20px;
+}
+.boxborder3 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  width: 430px;
+  height: 700px;
+  background-color: rgb(224, 213, 192);
+  margin: 50px 0px 0px 0px;
+  padding: 30px;
+}
+.boxborder4 {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  width: 450px;
+  height: 800px;
+  background-color: rgb(223, 213, 232);
+  margin: -70px 0px 0px 0px;
+  padding: 30px;
+  border: 1px solid black;
+}
+.sec5 {
+  padding: 7rem;
+}
+.alumnidiv {
+  font-size: 32px;
+  font-weight: 500;
+  width: 600px;
+  line-height: 35px;
+}
+.companiesicon {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  height: 80px;
+  margin: 30px 0px 0px 0px;
+}
+.companiesicon img {
+  width: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.campustour {
+  background-image: url("./images/sec6\ image.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+.campuss {
+  display: flex;
+}
+.videoo {
+  padding: 7rem;
+}
+.aboutcampus {
+  color: white;
+  margin: 5rem 0 0 -2rem;
+}
+.thetour {
+  font-size: 60px;
+  font-weight: bold;
+}
+.campcontent {
+  font-size: 18px;
+  width: 550px;
+}
+.applynow {
+  margin: 40px 0px 0px 0px;
+}
+.applynow a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: rgb(4, 4, 83);
+  border-radius: 30px;
+  font-size: 18px;
+}
+.sec7 {
+  padding: 7rem;
+}
+.testidiv {
+  font-size: 30px;
+}
+.testicontent {
+  width: 550px;
+  margin: 20px 0px 0px 0px;
+}
+.testimonials {
+  padding: 5rem;
+}
+.testiimagee img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+}
+.sqicollege {
+  margin: 10px 0px 0px -30px;
+}
+.sqicollege a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+.rating {
+  display: flex;
+  color: rgb(251, 142, 41);
+  font-size: 20px;
+  font-weight: bold;
+  gap: 10px;
+  margin: 0px 0px 0px -20px;
+}
+.star {
+  display: flex;
+  gap: 7px;
+  margin: 5px 0px 0px 0px;
+}
+.reviews {
+  font-size: 14px;
+  margin: 0px 0px 0px -12px;
+}
+.powergooglee {
+  margin: 0px 0px 0px -20px;
+}
+.powergooglee img {
+  width: 150px;
+}
+.reviewss {
+  display: flex;
+  gap: 7px;
+  margin: 20px 0px 0px -10px;
+  background-color: rgb(63, 63, 243);
+  padding: 8px;
+  border-radius: 60px;
+  width: 140px;
+  height: 35px;
+}
+.thereview {
+  color: white;
+  margin: -6px 0px 0px 5px;
+}
+.smallgoogle {
+  margin: 0px 0px 0px -4px;
+  background-color: white;
+  border-radius: 100px;
+  line-height: 15px;
+  height: 18px;
+}
+.sec8 {
+  padding: 7rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whysqi {
+  font-size: 40px;
+  font-weight: bold;
+}
+.laptopp {
+  position: relative;
+  margin: 0px 0px 0px 30px;
+}
+.laptopp img {
+  width: 300px;
+  height: 1200px;
+  right: 0;
+  position: absolute;
+  margin: -40px 0px 0px 0px;
+}
+.iconbook {
+  margin: 4rem 0 0 -30rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 48px;
+  /* position: relative; */
+}
+.scienceicon {
+  position: relative;
+  margin-left: 5rem;
+}
+.bookreaderr {
+  margin-right: 10rem;
+}
+.learningdetails {
+  display: flex;
+  gap: 100px;
+}
+.projectdivv {
+  width: 300px;
+}
+.projectlearning {
+  width: 300px;
+}
+.Faq {
+  background-color: rgb(5, 5, 40);
+  width: 100%;
+  height: 700px;
+}
+.faqbody {
+  display: flex;
+  justify-content: space-evenly;
+
+  /* flex-direction: column; */
+}
+.faqdiv {
+  color: white;
+  padding: 7rem;
+}
+.questionn {
+  font-size: 45px;
+  width: 400px;
+  margin: 20px 0px 0px 0px;
+}
+.contactus {
+  margin: 40px 0px 0px 0px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.contactus a {
+  color: orange;
+  text-decoration: underline;
+  padding: 10px;
+}
+.answerdiv {
+  margin-top: 7rem;
+}
+.faqanswers {
+  color: rgb(188, 188, 188);
+}
+.thecollege {
+  color: orange;
+}
+.no1 {
+  width: 450px;
+  line-height: 30px;
+  font-size: 18px;
+}
+.lineeee {
+  margin: 30px 0px 0px 0px;
+  color: white;
+  width: 450px;
+  color: orange;
+  border: 1px solid orange;
+}
+.answerdiv2 {
+  margin: 50px 0px 0px 0px;
+}
+.getstarted {
+  background-color: rgb(10, 10, 81);
+  width: 100%;
+  height: 450px;
+}
+.readycontent {
+  color: whitesmoke;
+  padding: 7rem;
+}
+.nextlevel {
+  font-size: 15px;
+  font-weight: bold;
+}
+.readydiv {
+  margin: 20px 0px 0px 0px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.others {
+  margin: 30px 0px 0px 0px;
+  width: 500px;
+}
+.jointodaydiv {
+  margin: 30px 0px 0px 0px;
+}
+.jointodaydiv a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  padding: 15px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+.newsdiv {
+  background-color: rgb(240, 241, 255);
+  width: 100%;
+  height: 900px;
+}
+.mainbody {
+  padding: 7rem;
+}
+.latestdiv {
+  display: flex;
+  gap: 40rem;
+  /* justify-content: space-evenly; */
+}
+.newsnews {
+  font-size: 30px;
+  font-weight: bold;
+}
+.readmoree {
+  display: flex;
+}
+.readmoree a {
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid darkblue;
+  background-color: darkblue;
+  color: white;
+  padding: 15px;
+}
+.latestmaindiv {
+  display: flex;
+  gap: 30px;
+}
+.boxnews {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  margin: 20px 0px 0px 0px;
+}
+.sqiimageee img {
+  width: 350px;
+  height: 200px;
+}
+.latestcontent {
+  margin: 10px 0px 0px 20px;
+}
+.collegeict {
+  font-size: 14px;
+  font-weight: bold;
+  width: 250px;
+}
+.newsdate {
+  margin: 20px 0px 0px 0px;
+  font: 10px;
+  color: rgb(249, 122, 122);
+}
+.contentsqi {
+  margin: 20px 0px 0px 0px;
+  width: 280px;
+  font-size: 16px;
+  color: rgb(106, 103, 103);
+}
+.sec11 {
+  padding: 7rem;
+}
+.firstrow {
+  margin: -40px 0px 0px 0px;
+}
+.footerdisplay {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hellocollege {
+  color: darkblue;
+  font-size: 18px;
+  font-weight: bold;
+  width: 180px;
+  /* margin-left: -6rem; */
+}
+
+.footerict {
+  margin: 20px 0px 0px 0px;
+  font-size: 18px;
+  width: 180px;
+  color: rgb(50, 50, 50);
+  line-height: 22px;
+}
+.footericon {
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  gap: 20px;
+  font-size: 12px;
+}
+.instagramm {
+  margin: 20px 0px 0px 0px;
+}
+.enquiryy a {
+  text-decoration: none;
+  color: rgb(80, 80, 171);
+  font-weight: bold;
+}
+li {
+  list-style: none;
+}
+.eachfooter {
+  color: rgb(106, 104, 104);
+  font-weight: 500;
+  font-size: 15px;
+}
+.listedcoursesss {
+  margin: 20px 0px 0px -30px;
+  line-height: 40px;
+}
+.listedcoursesss2 {
+  margin: 20px 0px 0px -30px;
+}
+.location1 {
+  width: 150px;
+}
+.numbersdiv {
+  margin: 20px 0px 0px 0px;
+  width: 150px;
+  font-weight: bold;
+}
+.locatemap {
+  margin: 20px 0px 0px 0px;
+}
+.locatemap a {
+  text-decoration: none;
+  color: rgb(66, 66, 163);
+  font-weight: 500;
+}
+.listedcoursesss3 {
+  margin: 20px 0px 0px -30px;
+}
+.locationibadan {
+  width: 170px;
+}
+.nodiv {
+  margin: 20px 0px 0px 0px;
+  font-weight: bold;
+}
+.ibadanlocation2 {
+  width: 170px;
+  margin: 20px 0px 0px 0px;
+}
+.osogboo {
+  margin: 40px 0px 0px 0px;
+}
+.copyright {
+  background-color: rgb(8, 8, 80);
+  width: 100%;
+  height: 50px;
+  color: white;
+  padding: 20px;
+  font-size: 15px;
 }
