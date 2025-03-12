@@ -24,8 +24,8 @@ import ChangePassword from "./Change Password";
 function App() {
   return (
     <>
-      {/* <Nav /> */}
-      {/* <Sessionone />
+      <Nav />
+      <Sessionone />
       <Sectiontwo />
       <Sectionthree />
       <Sectionfour />
@@ -35,15 +35,14 @@ function App() {
       <Sectioneight />
       <Sectionnine />
       <Sectionten />
-      <Footer /> */}
-
-      <Navprofile />
-      <Sidenav />
+      <Footer />
+      {/* <Navprofile /> */}
+      {/* <Sidenav /> */}
       <Routes>
         <Route path="/home" element={<Home />}>
-          <Route path="/home" element={<Dashboard />} />
-          <Route path="/home/myProfile" element={<MyProfile />} />
-          <Route path="/home/changePassword" element={<ChangePassword />} />
+          {/* <Route path="/home" element={<Dashboard />} /> */}
+          {/* <Route path="/home/myProfile" element={<MyProfile />} /> */}
+          {/* <Route path="/home/changePassword" element={<ChangePassword />} /> */}
         </Route>
       </Routes>
     </>

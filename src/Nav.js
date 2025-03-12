@@ -4,8 +4,8 @@ import Image1 from "./images/sqi icon.jpg";
 const Nav = () => {
   return (
     <div>
-      <nav>
-        <div className="header">
+      <div className="bigdiv">
+        <nav className="navnav">
           <div className="mainn">
             <div className="logodiv">
               <img src={Image1} alt="" />
@@ -31,8 +31,8 @@ const Nav = () => {
               </div>
             </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </div>
   );
 };
